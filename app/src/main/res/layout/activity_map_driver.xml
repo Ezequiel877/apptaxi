@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Drivers.MapDriver">
+    <include layout="@layout/appbar"/>
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.SupportMapFragment"
+        android:layout_gravity="bottom"
+        android:layout_margin="30dp"
+        android:text="conwctarme"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/design_default_color_on_primary">
+
+    </Button>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
